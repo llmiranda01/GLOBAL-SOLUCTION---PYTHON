@@ -1,57 +1,23 @@
 # GLOBAL-SOLUCTION---PYTHON
 
-Consultor de Carreira Inteligente com IA + Base de Conhecimento
-📌 Sobre o Projeto
+Descrição do Projeto
 
-Este projeto é um assistente inteligente de orientação de carreira, desenvolvido para unir agilidade de consulta a dados estruturados com o poder da IA generativa.
+O software atua como um consultor de carreira inteligente. Ele opera em dois modos:
 
-Ele opera em dois modos complementares:
+1.  Busca em Base de Conhecimento (JSON): Primeiramente, o sistema verifica um arquivo local (`dados.json`) que contém informações curadas sobre áreas de atuação e suas evoluções.
 
-🔍 1. Consulta à Base de Conhecimento Local (JSON)
+2.  Geração via Inteligência Artificial: Caso a profissão não seja encontrada no banco de dados local, o sistema se conecta à API do Google Gemini para gerar, em tempo real, uma análise completa contendo skills, roadmap de aprendizado e dicas de portfólio.
 
-O software verifica primeiro um arquivo dados.json, onde ficam armazenadas áreas profissionais, competências relevantes, tendências e roadmaps curados manualmente.
+Requisitos e Dependências
 
-Assim, quando o usuário busca uma área conhecida, a resposta é imediata, offline e altamente confiável.
+Para executar este projeto, você precisará de:
 
-🤖 2. Geração via Inteligência Artificial (Google Gemini)
-
-Se a profissão não existir no banco local, o sistema automaticamente aciona a API do Google Gemini, gerando uma análise completa em tempo real, contendo:
-
-Principais skills técnicas e comportamentais
-
-Roadmap de estudo passo a passo
-
-Sugestões de portfólio
-
-Tecnologias essenciais da área
-
-Isso garante que o sistema esteja sempre atualizado com o mercado.
-
-🚀 Principais Funcionalidades
-
-📚 Pesquisa inteligente com fallback automático (JSON → IA)
-
-⚡ Respostas rápidas para áreas conhecidas
-
-🧩 Estrutura modular para expansão de novas áreas
-
-🌐 Integração nativa com Google Generative AI
-
-📝 Retorno organizado e pronto para uso em relatórios, sites ou apresentações
-
-🛠️ Requisitos
-
-Para executar o projeto, você precisará de:
-
-Python 3+
-
+Python 3 para cima instalado.
 Biblioteca Google Generative AI
+Google API KEY
 
-Uma Google API KEY válida
-(criada no console Google AI)
 
-📦 Instalação das Dependências
+Instalação das dependências
 
-No terminal, instale o SDK do Gemini:
-
+Execute o comando abaixo no seu terminal para instalar o SDK do Google:
 pip install google-generativeai
