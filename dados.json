@@ -1,0 +1,692 @@
+{
+  "metadata": {
+    "project": "Futuro do Trabalho - Roadmaps de Requalificação",
+    "version": "1.0",
+    "language": "pt-BR",
+    "notes": "Cada área contém uma descrição curta, habilidades atuais resumidas e 5 profissões do futuro com roadmap passo-a-passo."
+  },
+  "areas": [
+    {
+      "area": "Administração e Backoffice",
+      "description": "Profissões centradas em processos, controle e suporte administrativo. Muitas tarefas rotineiras e repetitivas tendem a ser automatizadas (RPA, workflows), mas as habilidades de organização e entendimento de processos são aproveitáveis para funções que projetam, gerenciam e auditam automações.",
+      "current_skills": ["Organização", "Controle de documentos", "Processos repetitivos", "Atendimento interno", "Relatórios básicos"],
+      "future_professions": [
+        {
+          "title": "Especialista em Automação de Processos (RPA)",
+          "roadmap": [
+            "Aprender conceitos básicos de processos de negócio (BPM).",
+            "Estudar fundamentos de RPA e ferramentas low-code (ex.: UiPath, Power Automate).",
+            "Praticar com casos simples: automatizar tarefas repetitivas em planilhas e e-mails.",
+            "Aprender lógica de programação básica e fluxos de decisão.",
+            "Desenvolver um projeto de automação end-to-end e documentar ROI.",
+            "Buscar certificação básica de uma ferramenta RPA e portfolio."
+          ]
+        },
+        {
+          "title": "Analista de Dados",
+          "roadmap": [
+            "Aprender Excel avançado (tabelas dinâmicas, Power Query).",
+            "Noções de SQL para consulta de dados.",
+            "Conhecer conceitos de visualização (Power BI / Tableau).",
+            "Praticar limpeza e integração de dados operacionais.",
+            "Construir dashboards que monitorem KPIs operacionais.",
+            "Entender como automatizar relatórios e comunicar insights ao negócio."
+          ]
+        },
+        {
+          "title": "Gestor de Plataformas Digitais",
+          "roadmap": [
+            "Entender arquitetura de plataformas e SaaS básicas.",
+            "Aprender integração via APIs e conceitos de gestão de produto.",
+            "Desenvolver habilidades de priorização e roadmap de funcionalidades.",
+            "Gerenciar integrações entre ferramentas (ERP, CRM, Ticketing).",
+            "Criar indicadores de adoção e performance da plataforma.",
+            "Liderar pequenos times ou projetos de implantação."
+          ]
+        },
+        {
+          "title": "Coordenador de Fluxos Automatizados",
+          "roadmap": [
+            "Mapear processos manuais existentes e identificar gargalos.",
+            "Aprender modelagem de processos (BPMN básico).",
+            "Aplicar ferramentas de automação e orquestração de fluxos.",
+            "Testar e validar fluxos com stakeholders.",
+            "Medir impacto e otimizar continuamente.",
+            "Documentar procedimentos e treinar equipes."
+          ]
+        },
+        {
+          "title": "Analista de Inteligência Administrativa",
+          "roadmap": [
+            "Aprender coleta e análise de dados administrativos.",
+            "Estudar métricas de eficiência e custo.",
+            "Criar relatórios que conectem dados a decisões estratégicas.",
+            "Introduzir análises preditivas simples (tendências e alertas).",
+            "Automatizar ETL (extração/transformação/carregamento) de dados.",
+            "Apresentar insights para liderança e propor melhorias."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Atendimento e Serviços ao Cliente",
+      "description": "Setor fortemente impactado por chatbots e assistentes de IA para tarefas padrão. Funções que combinam empatia humana, resolução complexa e design de experiências continuarão relevantes e se transformarão em papéis de supervisão, curadoria e treinamento de IAs.",
+      "current_skills": ["Comunicação", "Resolução de problemas", "Empatia", "Registro de atendimentos", "Suporte básico"],
+      "future_professions": [
+        {
+          "title": "Designer de Experiência do Usuário (UX Service)",
+          "roadmap": [
+            "Estudar princípios de UX e pesquisa com usuários.",
+            "Aprender a mapear jornadas do cliente e pontos de dor.",
+            "Prototipar soluções (wireframes básicos).",
+            "Testar com usuários reais e iterar designs.",
+            "Integrar fluxos humanos e automações (handoffs com IA).",
+            "Mensurar impacto em satisfação e conversão."
+          ]
+        },
+        {
+          "title": "Treinador de Chatbots e IAs conversacionais",
+          "roadmap": [
+            "Compreender como funcionam modelos conversacionais básicos.",
+            "Aprender a criar intenções, entidades e fluxos de diálogo.",
+            "Coletar e rotular exemplos reais de conversas.",
+            "Treinar, testar e ajustar respostas (NLP básico).",
+            "Monitorar performance e corrigir vieses/conteúdos indevidos.",
+            "Documentar e escalar boas práticas para novos casos."
+          ]
+        },
+        {
+          "title": "Especialista em Suporte Digital Híbrido (Humano + IA)",
+          "roadmap": [
+            "Aprender a identificar quando a IA deve escalar para humano.",
+            "Desenvolver scripts e playbooks de atendimento híbrido.",
+            "Treinar equipe em uso de ferramentas digitais e soft skills.",
+            "Implementar métricas de qualidade e SLA para interações mistas.",
+            "Otimizar triagem automática e redirecionamento de casos complexos.",
+            "Avaliar continuamente a combinação humano-IA para melhoria."
+          ]
+        },
+        {
+          "title": "Analista de Jornada do Cliente",
+          "roadmap": [
+            "Mapear a jornada completa do cliente com dados e entrevistas.",
+            "Identificar pontos de fricção e oportunidades de automação.",
+            "Usar ferramentas de analytics para medir comportamento.",
+            "Priorizar intervenções com maior impacto na experiência.",
+            "Criar experimentos (A/B) para validar mudanças.",
+            "Estabelecer processos de melhoria contínua."
+          ]
+        },
+        {
+          "title": "Moderador de Interações de IA",
+          "roadmap": [
+            "Aprender políticas de moderação e monitoramento de conteúdo.",
+            "Treinar identificação de respostas inadequadas da IA.",
+            "Estabelecer workflows para revisão humana de casos sensíveis.",
+            "Criar métricas de segurança e compliance das interações.",
+            "Implementar mecanismos de feedback para treinar o modelo.",
+            "Garantir documentação e transparência para usuários."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Varejo e Comércio",
+      "description": "Varejo está migrando para experiências omnichannel e automações (caixas automáticos, gestão de estoque com IA). Funções de operação manual e vendas simples podem diminuir, enquanto surgem papéis focados em experiências digitais, curadoria e análise de dados do cliente.",
+      "current_skills": ["Atendimento presencial", "Organização de estoque", "Venda e persuasão", "Operação de caixa", "Tarefas repetitivas"],
+      "future_professions": [
+        {
+          "title": "Especialista em Experiências de Loja Digital",
+          "roadmap": [
+            "Entender integração entre loja física e canais digitais.",
+            "Aprender ferramentas de e-commerce e analytics de comportamento.",
+            "Projetar experiências cross-channel (promoções, pickups).",
+            "Criar testes para otimizar conversão e UX na loja.",
+            "Colaborar com marketing para campanhas personalizadas.",
+            "Mensurar impacto em engajamento e vendas."
+          ]
+        },
+        {
+          "title": "Gestor de E-commerce Automatizado",
+          "roadmap": [
+            "Aprender plataformas de e-commerce (ex.: Shopify, WooCommerce).",
+            "Configurar automações: carrinhos abandonados, recomendações.",
+            "Conhecer logística integrada e fulfillment automático.",
+            "Usar dados para gerir catálogo e precificação dinâmica.",
+            "Implementar testes e otimizações contínuas.",
+            "Gerenciar parcerias e marketplaces."
+          ]
+        },
+        {
+          "title": "Operador de Sistemas de Vendas Omnichannel",
+          "roadmap": [
+            "Compreender integração de canais (online/offline).",
+            "Aprender ferramentas de POS conectadas e ERPs.",
+            "Configurar sincronização de estoque e promoções.",
+            "Monitorar indicadores de desempenho por canal.",
+            "Resolver exceções e otimizar o fluxo de vendas.",
+            "Documentar procedimentos e treinar equipes."
+          ]
+        },
+        {
+          "title": "Curador de Produtos para IA Vendedora",
+          "roadmap": [
+            "Aprender seleção de portfólio com base em dados.",
+            "Configurar regras de curadoria para motores de recomendações.",
+            "Analisar dados de vendas e feedback de clientes.",
+            "Ajustar inventário e mix para performance otimizada.",
+            "Colaborar com times de marketing e logística.",
+            "Avaliar resultados e ajustar critérios de curadoria."
+          ]
+        },
+        {
+          "title": "Gestor de Visual Merchandising Virtual",
+          "roadmap": [
+            "Aprender princípios de merchandising físico aplicados ao digital.",
+            "Criar layouts e experiências visuais para lojas online.",
+            "Testar variações e medir impacto em engajamento.",
+            "Integrar storytelling e branding à experiência de compra.",
+            "Colaborar com designers e analistas de dados.",
+            "Otimizar performance com base em métricas de conversão."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Finanças Operacionais",
+      "description": "Tarefas repetitivas como lançamentos e conciliações tendem a ser automatizadas. Profissões emergentes exigirão entendimento de algoritmos, compliance automatizado e supervisão de sistemas financeiros inteligentes.",
+      "current_skills": ["Conferência de dados", "Rotinas repetitivas", "Planilhas", "Processamento de pagamentos", "Auditorias simples"],
+      "future_professions": [
+        {
+          "title": "Analista de Finanças Digitais",
+          "roadmap": [
+            "Aprender gestão de ferramentas financeiras digitais e ERP básicos.",
+            "Dominar Excel avançado e conceitos de automação de processos.",
+            "Conhecimentos Básicos de SQL e visualização de dados.",
+            "Implementar relatórios automáticos e alertas financeiros.",
+            "Participar de projetos de integração com sistemas digitais.",
+            "Apoiar decisões com análises e previsões simples."
+          ]
+        },
+        {
+          "title": "Auditor de Algoritmos",
+          "roadmap": [
+            "Entender como modelos e regras automatizadas afetam decisões financeiras.",
+            "Aprender princípios de auditoria e compliance técnico.",
+            "Analisar logs, inputs e outputs de modelos automatizados.",
+            "Verificar vieses e riscos potenciais em decisões algorítmicas.",
+            "Documentar achados e propor correções.",
+            "Manter atualização sobre regulamentação de IA/finanças."
+          ]
+        },
+        {
+          "title": "Especialista em Compliance Automatizado",
+          "roadmap": [
+            "Conhecer normas regulatórias aplicáveis (localmente).",
+            "Aprender ferramentas de monitoramento e regras automatizadas.",
+            "Configurar sistemas de detecção de anomalias e alertas.",
+            "Trabalhar com equipes jurídicas e técnicas para integração.",
+            "Testar cenários e revisar regras periodicamente.",
+            "Treinar times sobre procedimentos e auditorias."
+          ]
+        },
+        {
+          "title": "Gestor de Riscos de IA",
+          "roadmap": [
+            "Entender fundamentos de risco e modelos preditivos.",
+            "Avaliar riscos específicos de automações financeiras.",
+            "Desenvolver métricas e limites de tolerância.",
+            "Implementar monitoramento contínuo de performance do modelo.",
+            "Criar planos de mitigação e resposta a falhas.",
+            "Comunicar riscos para stakeholders e diretoria."
+          ]
+        },
+        {
+          "title": "Analista de Sistemas Financeiros Inteligentes",
+          "roadmap": [
+            "Aprender integração entre sistemas financeiros e APIs.",
+            "Modelar fluxos financeiros automatizados.",
+            "Implementar testes e validações de regras.",
+            "Monitorar transações e performance do sistema.",
+            "Otimizar automações com base em dados reais.",
+            "Garantir conformidade e auditoria técnica."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Indústria e Manufatura",
+      "description": "Automação e robótica reduzem trabalho manual e repetitivo. Entretanto, haverá demanda por profissionais que operem, programem, mantenham e integrem sistemas inteligentes e robôs, além de quem projete linhas de produção resilientes.",
+      "current_skills": ["Operação de máquinas", "Manutenção simples", "Processos repetitivos", "Trabalho físico", "Segurança no trabalho"],
+      "future_professions": [
+        {
+          "title": "Operador Técnico de Robôs Industriais",
+          "roadmap": [
+            "Aprender fundamentos de robótica industrial e segurança.",
+            "Estudar programação básica aplicada a robôs (linguagens do fabricante).",
+            "Treinar em simuladores ou kits educacionais (UR, FANUC, etc.).",
+            "Praticar parametrização e calibração de células robóticas.",
+            "Realizar manutenção preventiva e diagnósticos.",
+            "Obter certificação técnica se disponível."
+          ]
+        },
+        {
+          "title": "Técnico em Manufatura Avançada",
+          "roadmap": [
+            "Aprender processos de manufatura moderna (CNC, impressão 3D).",
+            "Entender integração de sensores e controle industrial (PLC/SCADA).",
+            "Praticar montagem e testes de protótipos.",
+            "Aplicar conceitos de lean manufacturing com automação.",
+            "Monitorar indicadores de qualidade e produtividade.",
+            "Aprimorar com cursos técnicos e experiência prática."
+          ]
+        },
+        {
+          "title": "Mantenedor de Máquinas Inteligentes",
+          "roadmap": [
+            "Entender eletrônica básica e redes industriais.",
+            "Aprender a ler diagramas e fazer diagnósticos com sensores.",
+            "Conectar máquinas a sistemas de monitoramento (IoT industrial).",
+            "Implementar manutenção preditiva com análise de dados simples.",
+            "Documentar falhas e soluções para base de conhecimento.",
+            "Atualizar firmware e calibrar equipamentos."
+          ]
+        },
+        {
+          "title": "Analista de Produção Automatizada",
+          "roadmap": [
+            "Aprender coleta e análise de dados de produção.",
+            "Configurar dashboards de desempenho (OEE, throughput).",
+            "Identificar gargalos e propor automações/ajustes.",
+            "Testar mudanças em pequeno escala antes de implantar.",
+            "Coordenar equipe técnica e operacional.",
+            "Medir impacto e otimizar continuamente."
+          ]
+        },
+        {
+          "title": "Especialista em Sistemas Ciberfísicos",
+          "roadmap": [
+            "Aprender conceitos de integração entre sistemas físicos e digitais.",
+            "Estudar sensores, atuadores e redes industriais.",
+            "Projetar arquitetura para monitoramento e controle remoto.",
+            "Implementar segurança básica para sistemas conectados.",
+            "Realizar testes de integração e simulação.",
+            "Trabalhar com equipes multidisciplinares para implantação."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Logística e Transporte",
+      "description": "Automação de rotas, veículos autônomos e gerenciamento por IA ameaçam tarefas rotineiras. Papéis emergentes exigem supervisão de frotas autônomas, análise de rotas e gestão de entregas digitais e drones.",
+      "current_skills": ["Organização", "Roteirização simples", "Conferência de cargas", "Direção", "Monitoramento básico"],
+      "future_professions": [
+        {
+          "title": "Supervisor de Frotas Autônomas",
+          "roadmap": [
+            "Entender tecnologias de veículos autônomos e telemetria.",
+            "Aprender plataformas de gerenciamento de frotas.",
+            "Configurar políticas de operação e segurança remota.",
+            "Monitorar telemetria e responder a exceções.",
+            "Treinar equipe para supervisão híbrida (humano + sistema).",
+            "Analisar dados para otimizar custos e rotas."
+          ]
+        },
+        {
+          "title": "Operador de Centros Logísticos Inteligentes",
+          "roadmap": [
+            "Conhecer sistemas de WMS e automação de armazém.",
+            "Entender integração de robôs de picking e transportadores.",
+            "Monitorar KPIs logísticos e desempenho operacional.",
+            "Gerenciar ordens e resolver desvios em tempo real.",
+            "Implementar melhorias com base em dados.",
+            "Liderar pequenas equipes técnicas e operacionais."
+          ]
+        },
+        {
+          "title": "Analista de Rotas com IA",
+          "roadmap": [
+            "Aprender modelagem de rotas e otimização básica.",
+            "Estudar algoritmos de roteirização (heurísticas simples).",
+            "Integrar dados de tráfego e restrições operacionais.",
+            "Criar dashboards de planejamento e simulação.",
+            "Implementar melhorias e medir redução de custos/tempo.",
+            "Colaborar com times de operação para ajustar parâmetros."
+          ]
+        },
+        {
+          "title": "Especialista em Drones de Entrega",
+          "roadmap": [
+            "Conhecer regulamentação e segurança de drones locais.",
+            "Aprender operação básica e manutenção de drones.",
+            "Projetar rotas e pontos de entrega eficientes.",
+            "Integrar controle de tráfego de drones e sistemas de logística.",
+            "Implementar testes pilotos e aferir viabilidade.",
+            "Escalar operação com atenção a compliance e segurança."
+          ]
+        },
+        {
+          "title": "Gestor de Cadeia Digital",
+          "roadmap": [
+            "Compreender toda a cadeia de suprimentos digitalizada.",
+            "Implementar integração entre fornecedores e sistemas internos.",
+            "Usar análise de dados para prever demandas e rupturas.",
+            "Coordenar parceiros e infraestrutura digital.",
+            "Definir KPIs e ferramentas para visibilidade da cadeia.",
+            "Conduzir iniciativas de melhoria contínua e resiliência."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Agronegócio Operacional",
+      "description": "Operações agrícolas rotineiras passam por automação com máquinas autônomas, sensores e agricultura de precisão. Habilidades manuais podem migrar para papéis que aplicam dados, monitoramento e operação de máquinas inteligentes.",
+      "current_skills": ["Operação de máquinas", "Plantio e colheita", "Processos repetitivos", "Monitoramento básico de solo e clima"],
+      "future_professions": [
+        {
+          "title": "Operador de Máquinas Agrícolas Autônomas",
+          "roadmap": [
+            "Aprender sobre máquinas autônomas e sua operação segura.",
+            "Estudar sensores agrícolas e integração com telemetria.",
+            "Praticar em simuladores ou demonstrações técnicas.",
+            "Realizar manutenção básica e calibração de equipamentos.",
+            "Monitorar operações remotamente e interpretar alertas.",
+            "Documentar procedimentos e medidas de segurança."
+          ]
+        },
+        {
+          "title": "Analista de Agricultura de Precisão",
+          "roadmap": [
+            "Aprender conceitos de agricultura de precisão e sensoriamento.",
+            "Usar ferramentas de georreferenciamento e imagens (satélite/drones).",
+            "Coletar e processar dados de solo/clima e interpretá-los.",
+            "Gerar recomendações de manejo (irrigação, insumos).",
+            "Implementar pilotos e medir ganhos de produtividade.",
+            "Comunicar resultados ao produtor e ajustar práticas."
+          ]
+        },
+        {
+          "title": "Gestor de Fazendas Inteligentes",
+          "roadmap": [
+            "Projetar infraestrutura de sensores e conectividade na fazenda.",
+            "Implementar sistemas de monitoramento e controle centralizado.",
+            "Analisar dados para otimizar insumos e logística.",
+            "Coordenar equipe técnica e operações diárias.",
+            "Avaliar sustentabilidade e eficiência energética.",
+            "Planejar investimentos e adoção de novas tecnologias."
+          ]
+        },
+        {
+          "title": "Especialista em Drones Agrícolas",
+          "roadmap": [
+            "Obter conhecimento regulatório para operação de drones.",
+            "Aprender técnicas de mapeamento e pulverização por drone.",
+            "Configurar missões e planejar rotas agrícolas.",
+            "Interpretar imagens e dados coletados por drones.",
+            "Integrar informações ao manejo agrícola e recomendações.",
+            "Operar com foco em segurança e eficiência."
+          ]
+        },
+        {
+          "title": "Técnico em Sensores Climáticos",
+          "roadmap": [
+            "Instalar e calibrar sensores de solo e clima.",
+            "Garantir conectividade e integridade dos dados.",
+            "Monitorar e interpretar leituras para decisões agrícolas.",
+            "Manter histórico e gerar alertas de risco.",
+            "Integrar dados a plataformas de gestão rural.",
+            "Atualizar equipamentos e participar de treinamentos."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Mídia e Produção de Conteúdo Simples",
+      "description": "Produção de conteúdo repetitivo (posts simples, textos padronizados) está muito suscetível à automação por IA. Mas surgem papéis que combinam criatividade humana com curadoria e supervisão de conteúdo gerado por modelos.",
+      "current_skills": ["Criação de posts simples", "Edição básica", "Escrita repetitiva", "Uso de ferramentas simples"],
+      "future_professions": [
+        {
+          "title": "Curador Criativo Assistido por IA",
+          "roadmap": [
+            "Aprender ferramentas de geração de conteúdo assistido por IA.",
+            "Desenvolver senso crítico para selecionar e editar outputs da IA.",
+            "Criar guidelines de tom, voz e estilo para modelos.",
+            "Testar prompts e pipelines de publicação automatizada.",
+            "Medir engajamento e ajustar estratégias criativas.",
+            "Manter atualizações sobre ética e direitos autorais."
+          ]
+        },
+        {
+          "title": "Produtor de Conteúdos Interativos",
+          "roadmap": [
+            "Aprender princípios de narrativa interativa e UX para conteúdo.",
+            "Conhecer plataformas que suportam conteúdo multimídia interativo.",
+            "Projetar experiências que envolvam usuário e dados em tempo real.",
+            "Criar protótipos e testar com audiência-alvo.",
+            "Mensurar engajamento e otimizar formatos.",
+            "Colaborar com desenvolvedores para integração técnica."
+          ]
+        },
+        {
+          "title": "Especialista em Narrativas para IA",
+          "roadmap": [
+            "Estudar storytelling e como IA interpreta narrativas.",
+            "Desenvolver prompts e estruturas de conteúdo para modelos.",
+            "Treinar modelos com corpus curado quando possível.",
+            "Avaliar outputs e corrigir bias ou incoerências.",
+            "Aplicar métricas de qualidade e eficácia narrativa.",
+            "Guiar equipes na produção escalável e responsável."
+          ]
+        },
+        {
+          "title": "Operador de Plataformas de Conteúdo Automatizadas",
+          "roadmap": [
+            "Conhecer plataformas de gestão e distribuição de conteúdo.",
+            "Automatizar workflows de publicação e monitoramento.",
+            "Monitorar performance e detectar anomalias nas publicações.",
+            "Implementar processos de revisão humana quando necessário.",
+            "Gerenciar integrações com analytics e monetização.",
+            "Otimizar escalabilidade e confiabilidade da plataforma."
+          ]
+        },
+        {
+          "title": "Designer de Branding Digital com IA",
+          "roadmap": [
+            "Estudar fundamentos de identidade visual e branding.",
+            "Aprender ferramentas assistidas por IA para criação visual.",
+            "Criar sistemas de design que a IA possa seguir (guidelines).",
+            "Testar variações e medir impacto na audiência.",
+            "Garantir consistência e qualidade nas criações geradas.",
+            "Atualizar portfólio com projetos híbridos (humano+IA)."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Manutenção e Serviços Técnicos Básicos",
+      "description": "Tarefas técnicas básicas podem ser automatizadas ou monitoradas remotamente por sensores e diagnósticos preditivos. Ainda assim, cresce a demanda por técnicos que entendam sensores, IoT e manutenção preditiva.",
+      "current_skills": ["Reparos simples", "Troca de peças", "Diagnósticos básicos", "Atendimento presencial"],
+      "future_professions": [
+        {
+          "title": "Técnico de Sistemas Automatizados",
+          "roadmap": [
+            "Aprender automação básica e leitura de diagramas elétricos.",
+            "Conhecer controladores (PLC) e programação simples.",
+            "Praticar integração entre sensores e atuadores.",
+            "Implementar rotinas de diagnóstico automatizado.",
+            "Realizar manutenção preventiva e calibragem.",
+            "Documentar procedimentos técnicos e históricos."
+          ]
+        },
+        {
+          "title": "Especialista em Sensores IoT",
+          "roadmap": [
+            "Entender tipos de sensores e princípios de medição.",
+            "Aprender comunicação de dados (MQTT/HTTP) e conectividade.",
+            "Instalar e calibrar sensores em ambientes reais.",
+            "Configurar coleta e envio de dados para plataformas.",
+            "Analisar leituras para detectar falhas ou anomalias.",
+            "Manter e atualizar firmware quando necessário."
+          ]
+        },
+        {
+          "title": "Instalador de Infraestrutura Inteligente",
+          "roadmap": [
+            "Conhecer cabeamento, redes e padrões de instalação.",
+            "Aprender integrar dispositivos IoT a gateways locais.",
+            "Garantir práticas de segurança e compliance na instalação.",
+            "Testar conectividade e integridade dos dispositivos.",
+            "Fornecer documentação e treinamento básico ao cliente.",
+            "Realizar manutenção e upgrades periódicos."
+          ]
+        },
+        {
+          "title": "Operador de Manutenção Preditiva",
+          "roadmap": [
+            "Aprender coleta de sinais (vibração, temperatura, etc.).",
+            "Estudar análise de tendências e identificação de anomalias.",
+            "Implementar alertas e thresholds operacionais.",
+            "Planejar ações corretivas baseadas em predição.",
+            "Integrar dados ao sistema de gestão de manutenção (CMMS).",
+            "Avaliar eficácia e reduzir paradas não planejadas."
+          ]
+        },
+        {
+          "title": "Mantenedor de Robôs Domésticos",
+          "roadmap": [
+            "Conhecer componentes e eletrônica básica de robôs domésticos.",
+            "Aprender diagnóstico via logs e testes físicos.",
+            "Substituir peças e recalibrar sensores/atuadores.",
+            "Atualizar firmware e solucionar problemas de conectividade.",
+            "Fornecer suporte ao usuário e documentação clara.",
+            "Manter-se atualizado com novas plataformas e modelos."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Jurídico Operacional",
+      "description": "Tarefas de revisão e pesquisa simples tendem a ser automatizadas por assistentes jurídicos e IA. O foco futuro é auditoria de sistemas, governança algorítmica e consultoria em conformidade digital.",
+      "current_skills": ["Revisão de documentos", "Acompanhamento processual", "Pesquisa simples", "Atividades repetitivas"],
+      "future_professions": [
+        {
+          "title": "Auditor de IA Jurídica",
+          "roadmap": [
+            "Entender princípios legais e impactos de decisões automatizadas.",
+            "Aprender como modelos geram recomendações jurídicas.",
+            "Auditar bases de dados e documentação de modelos.",
+            "Testar outputs em casos diversos para identificar erros.",
+            "Relatar não conformidades e sugerir ajustes.",
+            "Colaborar com equipes jurídicas e técnicas para mitigação."
+          ]
+        },
+        {
+          "title": "Especialista em Ética e Governança Algorítmica",
+          "roadmap": [
+            "Estudar frameworks de ética em IA e governança de dados.",
+            "Avaliador de riscos e vieses em modelos e datasets.",
+            "Desenvolver políticas internas de uso responsável de IA.",
+            "Implementar processos de revisão e comitês de ética.",
+            "Capacitar times sobre princípios e práticas éticas.",
+            "Monitorar e revisar políticas conforme evolução tecnológica."
+          ]
+        },
+        {
+          "title": "Analista de Conformidade Digital",
+          "roadmap": [
+            "Conhecer legislação de proteção de dados (ex.: LGPD).",
+            "Mapear fluxos de dados e pontos de risco de compliance.",
+            "Configurar controles e auditorias automatizadas.",
+            "Responder a incidentes e gerenciar evidências.",
+            "Criar relatórios de conformidade para órgãos internos.",
+            "Atualizar políticas segundo mudanças regulatórias."
+          ]
+        },
+        {
+          "title": "Consultor Legal para Automação",
+          "roadmap": [
+            "Aprender implicações legais de contratos automatizados.",
+            "Estudar cláusulas e responsabilidades em processos automatizados.",
+            "Auxiliar na redação de termos de uso e consentimento.",
+            "Mapear riscos contratuais relacionados a IA.",
+            "Propor salvaguardas e cláusulas de fallback humano.",
+            "Apoiar validação jurídica de novos produtos digitais."
+          ]
+        },
+        {
+          "title": "Curador de Documentos Inteligentes",
+          "roadmap": [
+            "Aprender a estruturar documentos para leitura por máquinas.",
+            "Implementar padrões e metadados para documentos legais.",
+            "Integrar documentos a sistemas de busca e análise automatizada.",
+            "Garantir qualidade e consistência das informações.",
+            "Automatizar geração de templates seguros.",
+            "Treinar equipes no uso de documentos inteligentes."
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Saúde Operacional",
+      "description": "Atividades rotineiras de registro e triagem podem ser automatizadas; entretanto, haverá demanda por profissionais que operem sistemas de telemedicina, monitorem pacientes remotamente e integrem dados clínicos a ferramentas de suporte à decisão.",
+      "current_skills": ["Atendimento básico", "Rotinas de enfermagem", "Registro de informações", "Procedimentos repetitivos"],
+      "future_professions": [
+        {
+          "title": "Técnico de Telemedicina",
+          "roadmap": [
+            "Aprender plataformas de teleconsulta e requisitos técnicos.",
+            "Configurar dispositivos e garantir qualidade de áudio/vídeo.",
+            "Gerenciar agendamentos e fluxos de atendimento remoto.",
+            "Garantir registro correto de dados clínicos digitais.",
+            "Conhecer aspectos de privacidade e segurança (LGPD em saúde).",
+            "Apoiar profissionais de saúde na adoção do canal remoto."
+          ]
+        },
+        {
+          "title": "Operador de Sistemas de Diagnóstico com IA",
+          "roadmap": [
+            "Entender como modelos auxiliam diagnósticos (imagens/ sinais).",
+            "Aprender a operar ferramentas e interpretar outputs com cautela.",
+            "Implementar rotinas de validação e revisão humana.",
+            "Monitorar performance e identificar falso-positivos/negativos.",
+            "Manter logs e evidências para auditoria clínica.",
+            "Colaborar com equipe clínica para integração ao fluxo."
+          ]
+        },
+        {
+          "title": "Coordenador de Saúde Digital",
+          "roadmap": [
+            "Mapear jornada do paciente em canais digitais.",
+            "Implementar programas de monitoramento remoto e adesão.",
+            "Configurar dashboards de indicadores de saúde/população.",
+            "Gerenciar fornecedores e integrações tecnológicas.",
+            "Avaliar resultados clínicos e operacionais.",
+            "Promover melhoria contínua e capacitação de equipes."
+          ]
+        },
+        {
+          "title": "Assistente de Robôs Cirúrgicos",
+          "roadmap": [
+            "Estudar princípios de robótica aplicada à cirurgia.",
+            "Aprender protocolos de preparação e esterilização de dispositivos.",
+            "Operar sistemas sob supervisão e seguir checklists de segurança.",
+            "Auxiliar no setup e calibração de instrumentos robóticos.",
+            "Registrar dados e incidentes para controle de qualidade.",
+            "Participar de treinamentos e certificações específicas."
+          ]
+        },
+        {
+          "title": "Especialista em Monitoramento Remoto de Pacientes",
+          "roadmap": [
+            "Implantar dispositivos wearables e sensores remotos.",
+            "Configurar coleta de dados e alertas para sinais vitais críticos.",
+            "Analisar tendências e responder a alertas com protocolos.",
+            "Conectar dados ao prontuário eletrônico ou sistema central.",
+            "Garantir privacidade e consentimento do paciente.",
+            "Otimizar rotinas para reduzir falsos alarmes e aumentar precisão."
+          ]
+        }
+      ]
+    }
+  ]
+}
